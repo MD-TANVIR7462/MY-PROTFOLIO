@@ -13,11 +13,11 @@ const Home = () => {
   }, []);
 
   return (
-    <div className="min-h-[850px] z-10 flex flex-col  pt-8 md:pt-32   items-start md:items-baseline md:ps-20" id='home'>
+    <div className="min-h-[850px] z-10 flex flex-col md:justify-center pt-8 md:pt-32     mx-auto" id='home'>
     
       <div className="container mx-auto px-4 py-12">
         <div className="flex flex-col-reverse md:flex-row-reverse justify-center items-center gap-8">
-          <div className="md:w-1/2">
+          <div className="">
             <motion.img
               data-aos="flip-left"
               data-aos-easing="ease-out-cubic"

@@ -29,8 +29,7 @@ const Tech = () => {
     });
   }, []);
   return (
-    <div className='grid md:grid-cols-5 gap-5 pt-14 mb-16' data-aos="fade-left"
-      
+    <div className='grid sm:grid-cols-2 lg:grid-cols-5  md:grid-cols-4 gap-x-4 gap-y-10 py-20' data-aos="fade-left"
 
     data-aos-duration="1000"
     data-aos-easing="ease-in-out"
@@ -38,7 +37,7 @@ const Tech = () => {
     data-aos-once="false"
     data-aos-anchor-placement="top-center" >
      
-      <div className='w-52 h-44 text-white border text-[70px] shadow-lg flex items-center flex-col justify-center shadow-purple-800 border-[#cd5df3]  hover:scale-105 transition-all duration-300  ' style={{
+      <div className='w-44 h-44 text-white border text-[70px] shadow-lg flex items-center flex-col justify-center shadow-purple-800 border-[#cd5df3]  hover:scale-105 transition-all duration-300' style={{
         border: '1.7px solid rgb(89, 0, 190)',
         borderRadius: '5px',
         boxShadow: '4px 5px 4px 3px rgba(117, 0, 250, 0.37)',
@@ -48,7 +47,7 @@ const Tech = () => {
         <SiHtml5></SiHtml5> <p className='text-xl pt-4'>HTML</p>
 
       </div>
-      <div className='w-52  h-44 text-white border text-[70px] shadow-lg flex items-center flex-col justify-center shadow-purple-800 border-[#cd5df3]  hover:scale-105 transition-all duration-300'  style={{
+      <div className='w-44  h-44 text-white border text-[70px] shadow-lg flex items-center flex-col justify-center shadow-purple-800 border-[#cd5df3]  hover:scale-105 transition-all duration-300'    style={{
         border: '1.7px solid rgb(89, 0, 190)',
         borderRadius: '5px',
         boxShadow: '4px 5px 4px 3px rgba(117, 0, 250, 0.37)',
@@ -57,7 +56,7 @@ const Tech = () => {
         <SiCss3></SiCss3> <p className='text-xl pt-4'>CSS</p>
 
       </div>
-      <div className='w-52  h-44 text-white border text-[70px] shadow-lg flex items-center flex-col justify-center shadow-purple-800 border-[#cd5df3]  hover:scale-105 transition-all duration-300'  style={{
+      <div className='w-44  h-44 text-white border text-[70px] shadow-lg flex items-center flex-col justify-center shadow-purple-800 border-[#cd5df3]  hover:scale-105 transition-all duration-300'    style={{
         border: '1.7px solid rgb(89, 0, 190)',
         borderRadius: '5px',
         boxShadow: '4px 5px 4px 3px rgba(117, 0, 250, 0.37)',
@@ -66,7 +65,7 @@ const Tech = () => {
         <DiJavascript1></DiJavascript1> <p className='text-xl pt-4'>Javascript</p>
 
       </div>
-      <div className='w-52  h-44 text-white border text-[70px] shadow-lg flex items-center flex-col justify-center shadow-purple-800 border-[#cd5df3]  hover:scale-105 transition-all duration-300'  style={{
+      <div className='w-44  h-44 text-white border text-[70px] shadow-lg flex items-center flex-col justify-center shadow-purple-800 border-[#cd5df3]  hover:scale-105 transition-all duration-300'    style={{
         border: '1.7px solid rgb(89, 0, 190)',
         borderRadius: '5px',
         boxShadow: '4px 5px 4px 3px rgba(117, 0, 250, 0.37)',
@@ -75,7 +74,7 @@ const Tech = () => {
         <DiReact></DiReact> <p className='text-xl pt-4'>React</p>
 
       </div>
-      <div className='w-52  h-44 text-white border text-[70px] shadow-lg flex items-center flex-col justify-center shadow-purple-800 border-[#cd5df3]  hover:scale-105 transition-all duration-300'  style={{
+      <div className='w-44  h-44 text-white border text-[70px] shadow-lg flex items-center flex-col justify-center shadow-purple-800 border-[#cd5df3]  hover:scale-105 transition-all duration-300'    style={{
         border: '1.7px solid rgb(89, 0, 190)',
         borderRadius: '5px',
         boxShadow: '4px 5px 4px 3px rgba(117, 0, 250, 0.37)',
@@ -84,7 +83,7 @@ const Tech = () => {
         <DiNodejs></DiNodejs> <p className='text-xl pt-4'>Node js</p>
 
       </div>
-      <div className='w-52  h-44 text-white border text-[70px] shadow-lg flex items-center flex-col justify-center shadow-purple-800 border-[#cd5df3]  hover:scale-105 transition-all duration-300'  style={{
+      <div className='w-44  h-44 text-white border text-[70px] shadow-lg flex items-center flex-col justify-center shadow-purple-800 border-[#cd5df3]  hover:scale-105 transition-all duration-300'    style={{
         border: '1.7px solid rgb(89, 0, 190)',
         borderRadius: '5px',
         boxShadow: '4px 5px 4px 3px rgba(117, 0, 250, 0.37)',
@@ -93,7 +92,7 @@ const Tech = () => {
         <SiTailwindcss></SiTailwindcss> <p className='text-xl pt-4'>Tailwindcss</p>
 
       </div>
-      <div className='w-52  h-44 text-white border text-[70px] shadow-lg flex items-center flex-col justify-center shadow-purple-800 border-[#cd5df3]  hover:scale-105 transition-all duration-300'  style={{
+      <div className='w-44  h-44 text-white border text-[70px] shadow-lg flex items-center flex-col justify-center shadow-purple-800 border-[#cd5df3]  hover:scale-105 transition-all duration-300'    style={{
         border: '1.7px solid rgb(89, 0, 190)',
         borderRadius: '5px',
         boxShadow: '4px 5px 4px 3px rgba(117, 0, 250, 0.37)',
@@ -102,7 +101,7 @@ const Tech = () => {
         <SiMongodb></SiMongodb> <p className='text-xl pt-4'>SiMongodb</p>
 
       </div>
-      <div className='w-52  h-44 text-white border text-[70px] shadow-lg flex items-center flex-col justify-center shadow-purple-800 border-[#cd5df3]  hover:scale-105 transition-all duration-300'  style={{
+      <div className='w-44  h-44 text-white border text-[70px] shadow-lg flex items-center flex-col justify-center shadow-purple-800 border-[#cd5df3]  hover:scale-105 transition-all duration-300'    style={{
         border: '1.7px solid rgb(89, 0, 190)',
         borderRadius: '5px',
         boxShadow: '4px 5px 4px 3px rgba(117, 0, 250, 0.37)',
@@ -111,7 +110,7 @@ const Tech = () => {
         <SiExpress></SiExpress> <p className='text-xl pt-4'>Express</p>
 
       </div>
-      <div className='w-52  h-44 text-white border text-[70px] shadow-lg flex items-center flex-col justify-center shadow-purple-800 border-[#cd5df3]  hover:scale-105 transition-all duration-300'  style={{
+      <div className='w-44  h-44 text-white border text-[70px] shadow-lg flex items-center flex-col justify-center shadow-purple-800 border-[#cd5df3]  hover:scale-105 transition-all duration-300'    style={{
         border: '1.7px solid rgb(89, 0, 190)',
         borderRadius: '5px',
         boxShadow: '4px 5px 4px 3px rgba(117, 0, 250, 0.37)',
@@ -120,7 +119,7 @@ const Tech = () => {
         <SiFirebase></SiFirebase> <p className='text-xl pt-4'>SiFirebase</p>
 
       </div>
-      <div className='w-52  h-44 text-white border text-[70px] shadow-lg flex items-center flex-col justify-center shadow-purple-800 border-[#cd5df3]  hover:scale-105 transition-all duration-300'  style={{
+      <div className='w-44  h-44 text-white border text-[70px] shadow-lg flex items-center flex-col justify-center shadow-purple-800 border-[#cd5df3]  hover:scale-105 transition-all duration-300'    style={{
         border: '1.7px solid rgb(89, 0, 190)',
         borderRadius: '5px',
         boxShadow: '4px 5px 4px 3px rgba(117, 0, 250, 0.37)',
